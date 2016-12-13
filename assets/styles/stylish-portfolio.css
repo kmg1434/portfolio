@@ -155,7 +155,7 @@ hr.small {
     position: relative;
     width: 100%;
     height: 100%;
-    background: url(../img/bg.jpg) no-repeat center center scroll;
+    background: url(../img/redRoom.png) no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -170,12 +170,23 @@ hr.small {
 
 /* Services */
 
+
+.devicon {
+  font-size: 5em;
+}
+
 .services {
     padding: 50px 0;
+    color: #241F6B;
 }
 
 .service-item {
     margin-bottom: 30px;
+}
+
+.services-text {
+    margin-bottom: 25px;
+    margin-top: 5px;
 }
 
 /* Callout */
@@ -247,8 +258,4 @@ footer {
   position: fixed;
   bottom: 5px;
   right: 5px;
-}
-
-.devicon {
-  font-size: 5em;
 }
