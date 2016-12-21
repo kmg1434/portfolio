@@ -170,7 +170,6 @@ hr.small {
 
 /* Services */
 
-
 .devicon {
   font-size: 5em;
 }
@@ -178,6 +177,7 @@ hr.small {
 .services {
     padding: 50px 0;
     color: #241F6B;
+    background: url(../assets/img/curve-brown-background.jpg);
 }
 
 .service-item {
